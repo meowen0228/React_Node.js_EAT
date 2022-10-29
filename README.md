@@ -43,8 +43,8 @@ Database
 To make it easy for you to get started with this repo, here's a list of recommended next steps.
 
 ### Development Environment
-Windows install WSl => https://learn.microsoft.com/zh-tw/windows/wsl/install
-WSl install Docker
+- Windows install WSl => https://learn.microsoft.com/zh-tw/windows/wsl/install  
+- WSl install Docker
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh  // need to wait 20s
@@ -57,8 +57,8 @@ sudo apt install docker-compose
 git clone https://github.com/meowen0228/React_Node.js_EAT.git
 ```
 ### Download npm packages
-open frontend and backend folder By VScode
-open terminal
+- open frontend and backend folder By VScode  
+- open terminal
 ```
 npm i
 ```
