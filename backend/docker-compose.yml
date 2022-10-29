@@ -1,0 +1,19 @@
+version: '3.1'
+
+services:
+
+  pg:
+    image: postgres:alpine
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1110905
+      TZ: 'GMT+8'
+    ports:
+    - 5432:5432
+
+  redis:
+    image: redis:7.0.4-alpine
+    restart: always
+    ports:
+    - 6380:6379
